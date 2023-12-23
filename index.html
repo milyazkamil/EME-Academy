@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="icon" type="image/x-icon" href="./src/assets/images/logo1.png" />
+  <link rel="stylesheet" href="./src/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="chat-overlay">
+    <div class="chat">
+      <header class="chat-header">
+        <svg class="big-chat" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2.5 4a.5.5 0 01.5-.5h5a.5.5 0 010 1H3.5V9a.5.5 0 01-1 0V4z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M2.646 3.646a.5.5 0 01.708 0l9 9a.5.5 0 01-.708.708l-9-9a.5.5 0 010-.708z" clip-rule="evenodd"></path></svg>
+        <p>Live Expert Support is Here!</p>
+        <svg class="close-chat" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z" fill="currentColor"></path></svg>
+      </header>
+      <div class="center">
+        <textarea class="message-container2">
+          Chat is Loading...
+        </textarea>
+        <textarea class="write-a-message" name="" id="" cols="30" rows="10" placeholder="Write a message here..."></textarea>
+        <footer>
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M779.3 196.6c-94.2-94.2-247.6-94.2-341.7 0l-261 260.8c-1.7 1.7-2.6 4-2.6 6.4s.9 4.7 2.6 6.4l36.9 36.9a9 9 0 0 0 12.7 0l261-260.8c32.4-32.4 75.5-50.2 121.3-50.2s88.9 17.8 121.2 50.2c32.4 32.4 50.2 75.5 50.2 121.2 0 45.8-17.8 88.8-50.2 121.2l-266 265.9-43.1 43.1c-40.3 40.3-105.8 40.3-146.1 0-19.5-19.5-30.2-45.4-30.2-73s10.7-53.5 30.2-73l263.9-263.8c6.7-6.6 15.5-10.3 24.9-10.3h.1c9.4 0 18.1 3.7 24.7 10.3 6.7 6.7 10.3 15.5 10.3 24.9 0 9.3-3.7 18.1-10.3 24.7L372.4 653c-1.7 1.7-2.6 4-2.6 6.4s.9 4.7 2.6 6.4l36.9 36.9a9 9 0 0 0 12.7 0l215.6-215.6c19.9-19.9 30.8-46.3 30.8-74.4s-11-54.6-30.8-74.4c-41.1-41.1-107.9-41-149 0L463 364 224.8 602.1A172.22 172.22 0 0 0 174 724.8c0 46.3 18.1 89.8 50.8 122.5 33.9 33.8 78.3 50.7 122.7 50.7 44.4 0 88.8-16.9 122.6-50.7l309.2-309C824.8 492.7 850 432 850 367.5c.1-64.6-25.1-125.3-70.7-170.9z"></path></svg>
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" clip-rule="evenodd"></path></svg>
+        </footer>
+      </div>
+    </div>
+  </section>
+
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#">
+        <img class="logo" src="./src/assets/images/logo2.png" alt="">
+      </a>
+      <div class="toggle-container">
+        <button type="button" class="hamburger-menu">
+          <span class="line line1">-</span>
+          <span class="line line2">-</span>
+          <span class="line line3">-</span>
+        </button>
+        <button type="button" class="close-menu">
+          X
+        </button>
+      </div>
+      <ul class="links">
+        <li>
+          <a class="dark-mode-text" href="#">Home</a>
+        </li>
+        <li>
+          <a class="dark-mode-text" href="#courses">Courses</a>
+        </li>
+        <li>
+          <a class="dark-mode-text" href="#about-us">About Us</a>
+        </li>
+        <li>
+          <a class="dark-mode-text" href="#contact">Contact</a>
+        </li>
+        <li class="last-link">
+          <button class="dark-mode-text" type="button">Ask Me</button>
+        </li>
+        <li class="dark-mode">
+            <svg class="moon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="nonzero" d="M10 6a8 8 0 0 0 11.955 6.956C21.474 18.03 17.2 22 12 22 6.477 22 2 17.523 2 12c0-5.2 3.97-9.474 9.044-9.955A7.963 7.963 0 0 0 10 6zm-6 6a8 8 0 0 0 8 8 8.006 8.006 0 0 0 6.957-4.045c-.316.03-.636.045-.957.045-5.523 0-10-4.477-10-10 0-.321.015-.64.045-.957A8.006 8.006 0 0 0 4 12zm14.164-9.709L19 2.5v1l-.836.209a2 2 0 0 0-1.455 1.455L16.5 6h-1l-.209-.836a2 2 0 0 0-1.455-1.455L13 3.5v-1l.836-.209A2 2 0 0 0 15.29.836L15.5 0h1l.209.836a2 2 0 0 0 1.455 1.455zm5 5L24 7.5v1l-.836.209a2 2 0 0 0-1.455 1.455L21.5 11h-1l-.209-.836a2 2 0 0 0-1.455-1.455L18 8.5v-1l.836-.209a2 2 0 0 0 1.455-1.455L20.5 5h1l.209.836a2 2 0 0 0 1.455 1.455z"></path></g></svg>
+            <svg class="sun" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="hero-top">
+        <div class="main-info">
+          <h2 class="dark-mode-text">Unlock Your Potential with <br> <span class="eme-academy">E.M.E Academy!</span></h2>
+          <h2 class="dark-mode-text">Empower Your Mind, Ignite Your Future.</h2>
+          <div>
+            <img style="width: 100px; height: 100px; margin-right: 1rem;" src="./src/assets/images/earth2.gif" alt="earth png">
+            <h2 class="dark-mode-text">Anytime, Anywhere Learning.</h2>
+          </div>
+          <h2 class="dark-mode-text">Join the Future of Education Today!</h2>
+          <button>Enroll Now</button>
+        </div>
+        <div class="woman-section">
+          <div class="woman-bg"></div>
+          <img src="./src/assets/images/1.png" alt="">
+          <div class="left">
+            <span>Course hours</span>
+            <b>1,453</b>
+          </div>
+          <div class="right">
+            <span>Members</span>
+            <b>29k</b>
+          </div>
+        </div>
+      </div>
+      <div class="hero-mouse">
+        <span></span>
+      </div>
+    </section>
+    
+    <section id="courses" class="education">
+      <h2 class="dark-mode-text">Courses</h2>
+      <div class="education-from-js">
+
+      </div>
+      <button type="button" class="load-more dark-mode-text">Load More</button>
+    </section>
+    
+    <section id="about-us" class="about-us">
+      <h2 class="dark-mode-text">About us</h2>
+      <div class="about-us-info">
+        <div>
+          <p class="dark-mode-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aliquid optio mollitia, aperiam consectetur deleniti libero labore placeat error aut ab exercitationem, sunt quaerat obcaecati laudantium sapiente soluta explicabo quisquam ea cupiditate vero!</p><br>
+          <p class="dark-mode-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere illo magni consectetur assumenda quam, unde mollitia quia quo sed, esse quisquam nobis repudiandae magnam, vero dolorum eveniet. Officia, numquam aperiam.</p>
+        </div>
+        <div>
+          <img src="./src/assets/images/about.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2 class="dark-mode-text">Instructors</h2>
+      <div class="reviews-from-js">
+        <p></p>
+      </div>
+      <button type="button" class="left-btn">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"></path></svg>
+        </button>
+        <button type="button" class="right-btn">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
+        </button>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="form-container">
+        <h2 class="form-title dark-mode-text">Our teams are here to help</h2>
+        <div class="form-center">
+          <form action="#" class="contact-form">
+            <div class="inputs-container">
+              <div class="input-container name-container">
+                <label for="name" class="aaa form-label label-name">Name *</label>
+                <input type="text" name="name" id="name" class="aaa form-input name">
+              </div>
+              <div class="input-container surname-container">
+                <label for="surname" class="bbb form-label label-surname">Surname</label>
+                <input type="text" name="surname" id="surname" class="bbb form-input surname">
+              </div>
+            </div>
+            <div class="inputs-container">
+              <div class="input-container email-container">
+                <label for="email" class="ccc form-label">Email *</label>
+                <input type="email" name="email" id="email" class="ccc form-input email">
+              </div>
+              <div class="input-container phone-container">
+                <label for="phone" class="ddd form-label">Phone</label>
+                <input type="tel" name="phone" id="phone" class="ddd form-input phone">
+              </div>
+            </div>
+            <div class="input-container message-container">
+              <label for="message" class="ttt form-label">Message *</label>
+              <textarea name="message" class="ttt message" id="message" cols="40" rows="15"></textarea>
+            </div>
+            <button type="submit" class="submit dark-mode-text">Submit</button>
+          </form>
+          <div class="form-image">
+            <img src="./src/assets/images/2.png" alt="">
+          </div>
+        </div>
+      </div>
+      
+      <div class="street-view-container">
+        <div class="street-view">
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1701325538392!6m8!1m7!1sCAoSLEFGMVFpcE4zeWNTMUhLUzNFNFlWWk5wbHFndkJaXzM1cnMzMl9DbmY2ZE5N!2m2!1d41.0258962!2d28.88943059999999!3f307.926084661102!4f10.587032407751877!5f0.4000000000000002" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="map">
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6019.941469813157!2d28.88943059999999!3d41.0258962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabae88118fa07%3A0xc30ec9db5ef091a0!2zWcSxbGTEsXogVGVrbmlrIMOcbml2ZXJzaXRlc2kgRcSfaXRpbSBGYWvDvGx0ZXNp!5e0!3m2!1str!2str!4v1701257972306!5m2!1str!2str"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="main-left">
+        <div class="left-top">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#">Artificial Intelligence</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Mobile Development</a></li>
+            <li><a href="#">Game Development</a></li>
+          </ul>
+        </div>
+        <div class="left-bottom">
+          <h3>Follow Us</h3>
+          <div>
+            <ul>
+              <li>
+                <a href="#">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3.1-447.8.2-671.7.3-671.7 447.8.1 671.7.2 671.7.3-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 1 0-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="nonzero" d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z"></path></g></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-center">
+        <div class="center-left">
+          <div>
+            <h3>Overview</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Global Sitemap</a></li>
+              <li><a href="#">Local Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="center-right">
+          <div>
+            <h3>Community</h3>
+            <ul>
+              <li><a href="#">Community Central</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">WAM Score</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>Can't find a course you love? Create your own and start something epic.</p>
+            <button type="button">START A COURSE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-right">
+        <div class="right-top">
+          <h3>Our App</h3>
+          <p>Use our app on your smartphone! Click links below.</p>
+          <a href="#">
+            <img src="./src/assets/images/apple.jpg" alt="">
+          </a>
+          <a href="#">
+            <img src="./src/assets/images/android.jpg" alt="">
+          </a>
+        </div>
+        <div class="right-bottom">
+          <h3>Advertise</h3>
+          <ul>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p>Created with love ❤️ by <i>E.M.E Academy</i> © 2023. All rights reserved.</p>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/annyang.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script>
+    if (annyang) {
+    // Let's define a command.
+    const commands = {
+      'open chat': () => { 
+        document.querySelector(".chat").classList.add('show-chat');
+        document.querySelector(".chat-overlay").style.visibility = 'visible';
+        document.querySelector("body").style.overflow = 'hidden';
+      },
+      'close chat': () => { 
+        document.querySelector(".chat").classList.remove('show-chat');
+        document.querySelector(".chat-overlay").style.visibility = 'hidden';
+        document.querySelector("body").style.overflow = 'visible';
+      },
+    };
+
+    // Add our commands to annyang
+    annyang.addCommands(commands);
+
+    // Start listening.
+    annyang.start();
+    }
+    </script>
+
+</body>
+</html>
