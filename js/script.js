@@ -31,7 +31,7 @@ const courses = [
     img: './src/assets/images/courseImages/react.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Milyaz Kamil',
     price: 300,
     viewsCount: 8000,
@@ -48,7 +48,7 @@ const courses = [
     img: './src/assets/images/courseImages/js.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Enes Tavlu',
     price: 250,
     viewsCount: 7000,
@@ -66,7 +66,7 @@ const courses = [
     img: './src/assets/images/courseImages/kotlin.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Emre Karayakupoğlu',
     price: 280,
     viewsCount: 7500,
@@ -84,7 +84,7 @@ const courses = [
     img: './src/assets/images/courseImages/unity.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Fatih Mehmet Erkoç',
     price: 320,
     viewsCount: 8500,
@@ -102,7 +102,7 @@ const courses = [
     img: './src/assets/images/courseImages/swift.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Sophia Martinez',
     price: 290,
     viewsCount: 7800,
@@ -120,7 +120,7 @@ const courses = [
     img: './src/assets/images/courseImages/c-sharp.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Elizabeth Williams',
     price: 270,
     viewsCount: 7200,
@@ -138,7 +138,7 @@ const courses = [
     img: './src/assets/images/courseImages/go.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Olivia Lee',
     price: 260,
     viewsCount: 7400,
@@ -156,7 +156,7 @@ const courses = [
     img: './src/assets/images/courseImages/rust.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Jennifer Turner',
     price: 280,
     viewsCount: 7600,
@@ -174,7 +174,7 @@ const courses = [
     img: './src/assets/images/courseImages/unreal-engine.jpg',
     firstLink: 'single-course.html',
     secondLink:
-      'https://github.com/milyazkamil/Sneakers-E-Commerce-Product-Page',
+      'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Natalie Walker',
     price: 320,
     viewsCount: 8200,
