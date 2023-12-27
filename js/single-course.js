@@ -55,25 +55,6 @@ const courses = [
   {
     courseId: 1,
     linkKey: 'link-key0',
-    courseTitle: 'React',
-    shortDescription: 'Master the art of building user interfaces with React.',
-    fullDescription:
-      'Learn React.js from scratch and build powerful, interactive web applications. Explore advanced concepts like Redux and React Hooks, and gain hands-on experience through real-world projects.',
-    certificationTitle: 'React Mastery Certification',
-    videoUrl: 'https://www.youtube.com/embed/u2B75HWI2JI?si=vCe3EQ-n9Y5DJJLr',
-    imageUrl: './src/assets/images/courseImages/react.jpg',
-    instructor: 'John Smith',
-    price: 300,
-    viewsCount: 8000,
-    durationHours: 40,
-    numberOfLessons: 20,
-    likesCount: 120,
-    difficultyLevel: 'Intermediate',
-    instructorImageUrl: './src/assets/images/milyaz.png',
-  },
-  {
-    courseId: 2,
-    linkKey: 'link-key1',
     courseTitle: 'JavaScript',
     shortDescription: 'Master the fundamentals of JavaScript programming.',
     fullDescription:
@@ -81,7 +62,7 @@ const courses = [
     certificationTitle: 'JavaScript Programming Certification',
     videoUrl: 'https://www.youtube.com/embed/PkZNo7MFNFg?si=UTEwLo-M_vMwYYfG',
     imageUrl: './src/assets/images/courseImages/js.jpg',
-    instructor: 'Emily Johnson',
+    instructor: 'Enes Tavlu',
     price: 250,
     viewsCount: 7000,
     durationHours: 35,
@@ -89,6 +70,25 @@ const courses = [
     likesCount: 110,
     difficultyLevel: 'Intermediate',
     instructorImageUrl: './src/assets/images/enes.jpg',
+  },
+  {
+    courseId: 2,
+    linkKey: 'link-key1',
+    courseTitle: 'React',
+    shortDescription: 'Master the art of building user interfaces with React.',
+    fullDescription:
+      'Learn React.js from scratch and build powerful, interactive web applications. Explore advanced concepts like Redux and React Hooks, and gain hands-on experience through real-world projects.',
+    certificationTitle: 'React Mastery Certification',
+    videoUrl: 'https://www.youtube.com/embed/u2B75HWI2JI?si=vCe3EQ-n9Y5DJJLr',
+    imageUrl: './src/assets/images/courseImages/react.jpg',
+    instructor: 'Milyaz Kamil',
+    price: 300,
+    viewsCount: 8000,
+    durationHours: 40,
+    numberOfLessons: 20,
+    likesCount: 120,
+    difficultyLevel: 'Intermediate',
+    instructorImageUrl: './src/assets/images/milyaz.png',
   },
   {
     courseId: 3,
@@ -101,7 +101,7 @@ const courses = [
     certificationTitle: 'Kotlin for Android Certification',
     videoUrl: 'https://www.youtube.com/embed/F9UC9DY-vIU?si=KBBW_ISNZuKbhGu2',
     imageUrl: './src/assets/images/courseImages/kotlin.jpg',
-    instructor: 'Amanda Rodriguez',
+    instructor: 'Emre Karayakupoğlu',
     price: 280,
     viewsCount: 7500,
     durationHours: 38,
@@ -221,7 +221,7 @@ const courses = [
     certificationTitle: 'Unreal Engine Developer Certification',
     videoUrl: 'https://www.youtube.com/embed/MRISn-RbpAI?si=SVB-WxtD9XI3tNU1',
     imageUrl: './src/assets/images/courseImages/unreal-engine.jpg',
-    instructor: 'Natalie Walker',
+    instructor: 'John Smigla',
     price: 320,
     viewsCount: 8200,
     durationHours: 45,
@@ -230,7 +230,7 @@ const courses = [
     difficultyLevel: 'Advanced',
     instructorImageUrl: './src/assets/images/i5.jpeg',
   },
-];
+]
 
 hamburgerMenu.addEventListener('click', () => {
   nav.classList.add('show-nav');
@@ -339,9 +339,9 @@ darkMode.addEventListener('click', () => {
     body.style.backgroundColor = '#120926';
     header.style.backgroundColor = '#090916';
     bottomInfo.style.backgroundColor = '#090916';
-    card.style.backgroundColor = '#090916';
+    card.style.backgroundColor = '#120926'
     card.style.borderColor = '#ff6c4b';
-    nav.style.backgroundColor = 'black';
+    nav.style.backgroundColor = '#090916'
     courseDescription.style.backgroundColor = "#120926";
     courseDescription.style.color = "white";
     courseDescription.style.borderColor = "#ff6c4b";

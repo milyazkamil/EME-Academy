@@ -26,29 +26,11 @@ const courses = [
   {
     courseId: 1,
     linkKey: 'link-key0',
-    courseTitle: 'React',
-    shortDescription: 'Master the art of building user interfaces with React.',
-    img: './src/assets/images/courseImages/react.jpg',
-    firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
-    instructor: 'Milyaz Kamil',
-    price: 300,
-    viewsCount: 8000,
-    durationHours: 40,
-    numberOfLessons: 20,
-    difficultyLevel: 'Intermediate',
-    instructorImage: './src/assets/images/milyaz.png',
-  },
-  {
-    courseId: 2,
-    linkKey: 'link-key1',
     courseTitle: 'JavaScript',
     shortDescription: 'Master the fundamentals of JavaScript programming.',
     img: './src/assets/images/courseImages/js.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Enes Tavlu',
     price: 250,
     viewsCount: 7000,
@@ -58,6 +40,22 @@ const courses = [
     instructorImage: './src/assets/images/enes.jpg',
   },
   {
+    courseId: 2,
+    linkKey: 'link-key1',
+    courseTitle: 'React',
+    shortDescription: 'Master the art of building user interfaces with React.',
+    img: './src/assets/images/courseImages/react.jpg',
+    firstLink: 'single-course.html',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
+    instructor: 'Milyaz Kamil',
+    price: 300,
+    viewsCount: 8000,
+    durationHours: 40,
+    numberOfLessons: 20,
+    difficultyLevel: 'Intermediate',
+    instructorImage: './src/assets/images/milyaz.png',
+  },
+  {
     courseId: 3,
     linkKey: 'link-key2',
     courseTitle: 'Kotlin',
@@ -65,8 +63,7 @@ const courses = [
       'Kotlin is a modern programming language for Android development.',
     img: './src/assets/images/courseImages/kotlin.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Emre Karayakupoğlu',
     price: 280,
     viewsCount: 7500,
@@ -83,8 +80,7 @@ const courses = [
       'Create stunning games and interactive experiences with Unity.',
     img: './src/assets/images/courseImages/unity.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Fatih Mehmet Erkoç',
     price: 320,
     viewsCount: 8500,
@@ -101,8 +97,7 @@ const courses = [
       'Master Swift, is a language for iOS and macOS development.',
     img: './src/assets/images/courseImages/swift.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Sophia Martinez',
     price: 290,
     viewsCount: 7800,
@@ -119,8 +114,7 @@ const courses = [
       'Become a proficient C# developer and build powerful applications.',
     img: './src/assets/images/courseImages/c-sharp.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Elizabeth Williams',
     price: 270,
     viewsCount: 7200,
@@ -137,8 +131,7 @@ const courses = [
       'Learn Go (Golang) and build scalable and efficient applications.',
     img: './src/assets/images/courseImages/go.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Olivia Lee',
     price: 260,
     viewsCount: 7400,
@@ -155,8 +148,7 @@ const courses = [
       'Master Rust programming language for safe and concurrent systems.',
     img: './src/assets/images/courseImages/rust.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
     instructor: 'Jennifer Turner',
     price: 280,
     viewsCount: 7600,
@@ -173,9 +165,8 @@ const courses = [
       'Unreal Engine for game development and virtual experiences.',
     img: './src/assets/images/courseImages/unreal-engine.jpg',
     firstLink: 'single-course.html',
-    secondLink:
-      'https://github.com/milyazkamil/EME-Academy',
-    instructor: 'Natalie Walker',
+    secondLink: 'https://github.com/milyazkamil/EME-Academy',
+    instructor: 'John Smigla',
     price: 320,
     viewsCount: 8200,
     durationHours: 45,
@@ -183,9 +174,9 @@ const courses = [
     difficultyLevel: 'Advanced',
     instructorImage: './src/assets/images/i5.jpeg',
   },
-];
+]
 
-const reviews = [
+const instructors = [
   {
     id: 1,
     name: 'Enes Tavlu',
@@ -207,7 +198,7 @@ const reviews = [
     name: 'Emre Karayakupoğlu',
     job: 'Mentor',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci veniam dolorum asperiores repudiandae. Aut provident repellendus ad delectus?',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci veniam dolorum asperiores?',
     img: './src/assets/images/emre.jpg',
   },
   {
@@ -229,7 +220,7 @@ const reviews = [
 ];
 
 const educationFromJs = document.querySelector('.education-from-js');
-const reviewsFromJs = document.querySelector('.reviews-from-js');
+const instructorsFromJs = document.querySelector('.instructors-from-js');
 
 const leftBtn = document.querySelector(".left-btn");
 const rightBtn = document.querySelector(".right-btn");
@@ -242,7 +233,7 @@ let percentage5 = 200;
 
 const itemsReview = [];
 
-for (let i = 0; i < reviews.length; i++) {
+for (let i = 0; i < instructors.length; i++) {
   const singleReview = document.createElement('div');
   singleReview.classList.add(`single-review`);
   singleReview.classList.add(`single-review${i}`);
@@ -297,20 +288,20 @@ for (let i = 0; i < reviews.length; i++) {
   const imageBg = document.createElement('div');
   imageBg.classList.add('image-bg');
   const image = document.createElement('img');
-  image.src = reviews[i].img;
+  image.src = instructors[i].img;
   const name = document.createElement('h3');
-  name.innerText = reviews[i].name;
+  name.innerText = instructors[i].name;
   const job = document.createElement('h4');
-  job.innerText = reviews[i].job;
+  job.innerText = instructors[i].job;
   const content = document.createElement('p');
-  content.innerText = reviews[i].review;
+  content.innerText = instructors[i].review;
   imageContainer.append(svg, imageBg, image);
   singleReview.append(imageContainer, name, job, content);
   itemsReview.push(singleReview);
 }
 
 itemsReview.forEach((item) => {
-  reviewsFromJs.append(item);
+  instructorsFromJs.append(item);
 });
 
 firstReview = document.querySelector('.single-review0');
@@ -644,14 +635,13 @@ inputContainers.forEach((inputContainer) => {
 moon.style.left = '25%';
 sun.style.left = '25%';
 closeMenu.style.display = 'none';
-
 darkMode.addEventListener('click', () => {
   if (moon.style.left === '25%') {
     moon.style.left = '80%';
     sun.style.left = '80%';
     body.style.backgroundColor = '#120926';
     header.style.backgroundColor = '#090916';
-    nav.style.backgroundColor = "black";
+    nav.style.backgroundColor = '#090916'
     logo.src = "./src/assets/images/logo1.png";
     moon.style.visibility = 'hidden';
     sun.style.visibility = 'visible';

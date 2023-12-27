@@ -518,8 +518,8 @@ body {
   margin: 2rem auto;
   border: 2px solid #ff6c4b;
   border-radius: 100px;
-  height: 70px;
-  width: 35px;
+  min-height: 60px;
+  min-width: 35px;
   position: relative;
 }
 .main > .hero > .hero-mouse > span {
@@ -731,24 +731,24 @@ body {
   width: 70%;
   filter: drop-shadow(0px 10px 10px #ff6c4b);
 }
-.main > .reviews {
+.main > .instructors {
   height: 580px;
   width: 100%;
   position: relative;
 }
-.main > .reviews > h2 {
+.main > .instructors > h2 {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 3rem;
 }
-.main > .reviews > .reviews-from-js {
+.main > .instructors > .instructors-from-js {
   position: relative;
   height: 470px;
-  width: 100%;
+  width: 93%;
   margin: 0 auto;
   overflow: hidden;
 }
-.main > .reviews > .reviews-from-js > .single-review {
+.main > .instructors > .instructors-from-js > .single-review {
   width: 30%;
   text-align: center;
   border: 1px solid rgba(255, 108, 75, 0.1490196078);
@@ -759,18 +759,18 @@ body {
   transition: all 0.3s ease-in-out;
   position: absolute;
 }
-.main > .reviews > .reviews-from-js > .single-review:hover {
+.main > .instructors > .instructors-from-js > .single-review:hover {
   background-color: #ffe7e1;
   cursor: pointer;
 }
-.main > .reviews > .reviews-from-js > .single-review > .image-container {
+.main > .instructors > .instructors-from-js > .single-review > .image-container {
   height: 170px;
   position: relative;
 }
-.main > .reviews > .reviews-from-js > .single-review > .image-container > svg {
+.main > .instructors > .instructors-from-js > .single-review > .image-container > svg {
   position: absolute;
   top: 25%;
-  left: 33%;
+  left: 28%;
   z-index: 40;
   transform: translate(-50%, -50%);
   background-color: #ff6c4b;
@@ -778,7 +778,7 @@ body {
   padding: 0.5rem;
   color: white;
 }
-.main > .reviews > .reviews-from-js > .single-review > .image-container > .image-bg {
+.main > .instructors > .instructors-from-js > .single-review > .image-container > .image-bg {
   position: absolute;
   background-color: #ff6c4b;
   box-shadow: 0 0 10px 5px rgba(255, 108, 75, 0.3137254902);
@@ -789,8 +789,10 @@ body {
   border-radius: 100%;
   transform: translate(-50%, 0);
 }
-.main > .reviews > .reviews-from-js > .single-review > .image-container > img {
+.main > .instructors > .instructors-from-js > .single-review > .image-container > img {
   position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 20;
   width: 150px;
   top: 3%;
@@ -799,18 +801,18 @@ body {
   height: 150px;
   border-radius: 100%;
 }
-.main > .reviews > .reviews-from-js > .single-review > h3 {
+.main > .instructors > .instructors-from-js > .single-review > h3 {
   font-size: 1.7rem;
   margin-bottom: 0.5rem;
+  line-height: 1.7rem;
 }
-.main > .reviews > .reviews-from-js > .single-review > h4 {
+.main > .instructors > .instructors-from-js > .single-review > h4 {
   color: #ff6c4b;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
-.main > .reviews > button {
+.main > .instructors > button {
   position: absolute;
-  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -820,24 +822,25 @@ body {
   transition: all 0.3s ease-in-out;
   border-radius: 0.2rem;
   cursor: pointer;
+  z-index: 10;
 }
-.main > .reviews > button:hover {
+.main > .instructors > button > svg {
+  fill: #ff6c4b;
+}
+.main > .instructors > button:hover {
   background-color: #ff6c4b;
   color: white;
 }
-.main > .reviews > button:hover > svg {
-  color: white;
+.main > .instructors > button:hover > svg {
+  fill: white;
 }
-.main > .reviews > button > svg {
-  color: #ff6c4b;
-}
-.main > .reviews > .left-btn {
-  left: -3rem;
+.main > .instructors > .left-btn {
+  left: 0;
   top: 45%;
   transform: translate(0, -50%);
 }
-.main > .reviews > .right-btn {
-  right: -3rem;
+.main > .instructors > .right-btn {
+  right: 0;
   top: 45%;
   transform: translate(0, -50%);
 }
@@ -1436,7 +1439,7 @@ body {
   .main > .about-us > .about-us-info > div {
     width: 100%;
   }
-  .main > .reviews {
+  .main > .instructors {
     display: none;
   }
   .main > .contact > .form-container > .form-center {

@@ -587,8 +587,8 @@ body {
       margin: 2rem auto;
       border: 2px solid #ff6c4b;
       border-radius: 100px;
-      height: 70px;
-      width: 35px;
+      min-height: 60px;
+      min-width: 35px;
       position: relative;
 
       & > span {
@@ -841,7 +841,7 @@ body {
     }
   }
 
-  & > .reviews {
+  & > .instructors {
     height: 580px;
     width: 100%;
     position: relative;
@@ -852,12 +852,13 @@ body {
       font-size: 3rem;
     }
 
-    & > .reviews-from-js {
+    & > .instructors-from-js {
       position: relative;
       height: 470px;
-      width: 100%;
+      width: 93%;
       margin: 0 auto;
       overflow: hidden;
+      // background-color: red;
 
       & > .single-review {
         width: 30%;
@@ -882,7 +883,7 @@ body {
           & > svg {
             position: absolute;
             top: 25%;
-            left: 33%;
+            left: 28%;
             z-index: 40;
             transform: translate(-50%, -50%);
             background-color: #ff6c4b;
@@ -905,6 +906,7 @@ body {
 
           & > img {
             position: absolute;
+            object-fit: cover;
             z-index: 20;
             width: 150px;
             top: 3%;
@@ -918,6 +920,7 @@ body {
         & > h3 {
           font-size: 1.7rem;
           margin-bottom: 0.5rem;
+          line-height: 1.7rem;
         }
 
         & > h4 {
@@ -930,7 +933,6 @@ body {
 
     & > button {
       position: absolute;
-      z-index: 3;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -940,29 +942,30 @@ body {
       transition: all 0.3s ease-in-out;
       border-radius: 0.2rem;
       cursor: pointer;
+      z-index: 10;
+
+      & > svg {
+        fill: #ff6c4b;
+      }
 
       &:hover {
         background-color: #ff6c4b;
         color: white;
 
         & > svg {
-          color: white;
+          fill: white;
         }
-      }
-      
-      & > svg {
-        color: #ff6c4b;
       }
     }
 
     & > .left-btn {
-      left: -3rem;
+      left: 0;
       top: 45%;
       transform: translate(0, -50%);
     }
 
     & > .right-btn {
-      right: -3rem;
+      right: 0;
       top: 45%;
       transform: translate(0, -50%);
     }
@@ -1721,7 +1724,7 @@ body {
       }
     }
 
-    & > .reviews {
+    & > .instructors {
       display: none;
     }
 
