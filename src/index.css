@@ -723,6 +723,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: start;
+}
+.main > .about-us > .about-us-info > .about-us-text-info {
+  padding: 0 3rem;
+}
+.main > .about-us > .about-us-info > .about-us-text-info > ol > li {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.main > .about-us > .about-us-info > .about-us-text-info > ol > li > ul {
+  list-style-type: square;
 }
 .main > .about-us > .about-us-info > div {
   width: 50%;

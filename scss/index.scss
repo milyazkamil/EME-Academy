@@ -829,7 +829,23 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      text-align: start;
 
+      & > .about-us-text-info {
+        padding: 0 3rem;
+
+        & > ol {
+
+          & > li {
+            text-align: start;
+            margin-bottom: 2rem;
+
+            & > ul {
+              list-style-type: square;
+            }
+          }
+        }
+      }
       & > div {
         width: 50%;
       
